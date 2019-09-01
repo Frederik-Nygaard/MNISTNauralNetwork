@@ -14,6 +14,10 @@ n_iterations = 1000
 batch_size = 128
 dropout = 0.5
 
+"""
+Test
+"""
+
 
 with np.load('data/mnist.npz') as data:
     training_images = data['training_images']
